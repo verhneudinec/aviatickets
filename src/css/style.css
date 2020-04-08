@@ -1,0 +1,126 @@
+body {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 21, 210, 0.3) 9.77%,
+      rgba(159, 34, 239, 0) 33.93%,
+      rgba(105, 0, 69, 0.3) 100%
+    ),
+    url(../images/cover.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+/* Header styles */
+.header .brand-logo {
+  position: static;
+  color: black;
+}
+
+.header .logo i {
+  color: black;
+}
+
+.header .currency-select input.select-dropdown {
+  margin: 0;
+  color: black;
+  border: 0;
+}
+
+.header .currency-select input.select-dropdown:focus {
+  border-bottom: 0;
+}
+
+.header .currency-select {
+  width: 120px;
+}
+
+.header .currency-select .caret {
+  fill: black;
+}
+
+.header .brand-logo {
+  font-size: 1.5rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ticket-card {
+  padding: 10px 15px;
+}
+
+.ticket-airline-name {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.ticket-airline-img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+.ticket-destination {
+  margin-bottom: 10px;
+  border-bottom: 1px dashed gray;
+}
+
+.ticket-destination .ticket-city {
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.ticket-destination i.material-icons {
+  font-size: 26px;
+}
+
+.ticket-time-departure {
+  font-weight: bold;
+  color: gray;
+}
+
+.ticket-price {
+  font-size: 25px;
+  padding: 5px;
+  background: #6a1b9a;
+  color: #fff;
+}
+
+.ticket-additional-info {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tickets-empty-res-msg {
+  padding: 10px 15px;
+  text-align: center;
+  background: whitesmoke;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.autocomplete-content li img {
+  display: none;
+}
